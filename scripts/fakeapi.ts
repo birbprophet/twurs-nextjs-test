@@ -27,3 +27,15 @@ export default async function fakeapi() {
     setTimeout(() => resolve(fakeData), 1000),
   ]);
 }
+
+export const getArticle = (sectionSlug, articleSlug) => {
+  const filteredSection = fakeData.filter((v) => v.slug === sectionSlug)[0];
+  const sectionItems = (filteredSection || {}).items;
+  const filteredArticle = (sectionItems || []).filter(
+    (v) => v.slug === articleSlug
+  )[0];
+
+  return new Promise((resolve, reject) => [
+    setTimeout(() => resolve(filteredArticle || null), 1000),
+  ]);
+};

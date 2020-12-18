@@ -54,9 +54,9 @@ export default function Home(props) {
               <span className="text-gray-700">Subtitle here</span>
               <dd className="mt-2 pr-12">
                 <ul className="text-base text-gray-500 list-disc pl-5">
-                  <li>TODO: Make a list of links to guides in the section</li>
-                  <li>TODO: Make a list of links to guides in the section</li>
-                  <li>TODO: Make a list of links to guides in the section</li>
+                  <li>TODO: Make a list of links to articles in the section</li>
+                  <li>TODO: Make a list of links to articles in the section</li>
+                  <li>TODO: Make a list of links to articles in the section</li>
                 </ul>
               </dd>
             </div>
@@ -88,9 +88,9 @@ export default function Home(props) {
               <span className="text-gray-700">Subtitle here</span>
               <dd className="mt-2 pr-12">
                 <ul className="text-base text-gray-500 list-disc pl-5">
-                  <li>TODO: Make a list of links to guides in the section</li>
-                  <li>TODO: Make a list of links to guides in the section</li>
-                  <li>TODO: Make a list of links to guides in the section</li>
+                  <li>TODO: Make a list of links to articles in the section</li>
+                  <li>TODO: Make a list of links to articles in the section</li>
+                  <li>TODO: Make a list of links to articles in the section</li>
                 </ul>
               </dd>
             </div>

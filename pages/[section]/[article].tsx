@@ -1,3 +1,5 @@
+import { getArticle } from "@/scripts/fakeapi";
+
 export async function getStaticPaths() {
   // TODO
   const paths = [];
@@ -16,7 +18,7 @@ export async function getStaticProps(context) {
   };
 }
 
-export default function Guide() {
+export default function Article() {
   return (
     <div className="h-screen w-screen flex">
       <div className="m-auto text-2xl font-medium">

@@ -16,8 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@/scripts/*": ["scripts/*"],
-      "@/styles/*": ["styles/*"],
-      "@/gql/*": ["gql/*"]
+      "@/styles/*": ["styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
